@@ -4,12 +4,8 @@ This is a simple project manager for the October CMS backend. You can add projec
 ##Install
 Extract this archive to `/plugins/jbdev/tasker` and click on **Projects** in the back-end area.
 
-To insure correct setup you might want to run one or mre of the following:
+To insure correct setup you might want to run one or more of the following:
 
-    php artisan plugin:install Jbdev.Tasker
-    
-    or
-    
     php artisan plugin:refresh Jbdev.Tasker
     
     or

@@ -1,7 +1,6 @@
 <?php namespace Jbdev\Tasker\Models;
 
 use Model;
-use BackendMenu;
 /**
  * Project Model
  */

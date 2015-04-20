@@ -2,13 +2,20 @@
     "name": "jbdev/tasker",
     "type": "october-plugin",
     "description": "Tasker Project Management OctoberCMS plugin",
+    "version": "1.0.3",
     "keywords": ["october", "tasks", "projects", "plugin"],
-
+    "homepage": "http://jolicode.com",
+    "time": "2015-4-20",
+    "license": "MIT",
     "authors": [
         {
             "name": "BRNZPUB",
             "email": "info@brnzpub.com",
-            "role": "Owner"
+            "role": "Developer"
         }
-    ]
+    ],
+    "support": {
+        "email": "info@brnzpub.com",
+        "source": "https://github.com/jpbrnz/oc-tasker-plugin"
+    },
 }
