@@ -48,15 +48,15 @@ tabs:
         files:
             label: Project Files
             type: fileupload
-            commentAbove: Upload multiple files.
+            commentAbove: Upload your project files.
             mode: file
             tab: Files
 
         images:
             label: Images
             type: fileupload
+            commentAbove: Upload your project images
             mode: image
-            imageHeight: 260
-            imageWidth: 260
-            commentAbove: Upload project image.
-            tab: Image
+            imageHeight: 150
+            imageWidth: 150
+            tab: Project Images

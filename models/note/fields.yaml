@@ -7,7 +7,7 @@ fields:
         placeholder: Enter a task name
 
     content:
-        label: Content
+        label: Task Details
         type: richeditor
 
     owner:

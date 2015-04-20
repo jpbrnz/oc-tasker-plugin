@@ -28,11 +28,8 @@ class Project extends Model
         'status' => ['Jbdev\Tasker\Models\Status'],
     ];
 
-    public $attachOne = [
-            'images' => ['System\Models\File'],
-    ];
     public $attachMany = [
-            'portfolio' => ['System\Models\File'],
+            'images' => ['System\Models\File'],
             'files' => ['System\Models\File'],
     ];
 }
