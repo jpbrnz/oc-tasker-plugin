@@ -1,0 +1,22 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    name:
+        label: Name
+        searchable: true
+
+    status:
+        label: Status
+        relation: status
+        select: name
+
+    dueby:
+        label: Due By
+        select: dueby
+
+    completed:
+        label: Completed On
+        select: completed
+

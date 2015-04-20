@@ -1,0 +1,14 @@
+{
+    "name": "jbdev/tasker",
+    "type": "october-plugin",
+    "description": "Tasker Project Management OctoberCMS plugin",
+    "keywords": ["october", "tasks", "projects", "plugin"],
+
+    "authors": [
+        {
+            "name": "BRNZPUB",
+            "email": "info@brnzpub.com",
+            "role": "Owner"
+        }
+    ]
+}

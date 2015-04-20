@@ -1,0 +1,11 @@
+# ===================================
+#  Relation Behavior Config
+# ===================================
+
+notes:
+    label: Task
+    view:
+        list: $/jbdev/tasker/models/note/columns.yaml
+        toolbarButtons: create|delete
+    manage:
+        form: $/jbdev/tasker/models/note/fields.yaml

@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Project
+
+# Model Form Field configuration
+form: $/jbdev/tasker/models/project/fields.yaml
+
+# Model Class name
+modelClass: Jbdev\Tasker\Models\Project
+
+# Default redirect location
+defaultRedirect: jbdev/tasker/projects
+
+# Create page
+create:
+    title: Create Project
+    redirect: jbdev/tasker/projects/update/:id
+    redirectClose: jbdev/tasker/projects
+
+# Update page
+update:
+    title: Edit Project
+    redirect: jbdev/tasker/projects
+    redirectClose: jbdev/tasker/projects
+
+# Preview page
+preview:
+    title: Preview Project

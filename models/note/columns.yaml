@@ -1,0 +1,20 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    subject:
+        label: Task
+        searchable: true
+
+    owner:
+        width: 20%
+        label: Assigned to
+        relation: owner
+        select: concat(first_name, ' ', last_name)
+        width: 150px
+
+    created_at:
+        label: Added
+        type: date
+        width: 150px

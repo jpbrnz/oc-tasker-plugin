@@ -1,0 +1,16 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    subject:
+        placeholder: Enter a task name
+
+    content:
+        label: Content
+        type: richeditor
+
+    owner:
+        label: Assigned to
+        type: relation
+        nameFrom: first_name

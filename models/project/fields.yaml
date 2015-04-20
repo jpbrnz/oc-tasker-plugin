@@ -1,0 +1,62 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+        name:
+            label: Project name
+            comment: Enter a project name for the project.
+            span: auto
+
+        status:
+            label: Status
+            type: recordfinder
+            list: $/jbdev/tasker/models/status/columns.yaml
+            prompt: Click the %s button to find a status
+            nameFrom: name
+            descriptionFrom: percentcomplete
+            span: auto
+
+        dueby:
+            label: Due By
+            type: datepicker
+            mode: date
+            sortable: false
+            span: auto
+
+        completed:
+            label: Completed on
+            type: datepicker
+            mode: date
+            sortable: false
+            span: auto
+
+tabs:
+    fields:
+      
+        description:
+             label: Description
+             type: richeditor
+             size: huge
+             tab: Details
+             
+        notes:
+            type: partial
+            path: field_notes
+            tab: Tasks
+
+        files:
+            label: Project Files
+            type: fileupload
+            commentAbove: Upload multiple files.
+            mode: file
+            tab: Files
+
+        images:
+            label: Images
+            type: fileupload
+            mode: image
+            imageHeight: 260
+            imageWidth: 260
+            commentAbove: Upload project image.
+            tab: Image

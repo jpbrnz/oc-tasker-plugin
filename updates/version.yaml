@@ -1,0 +1,9 @@
+1.0.1: First version of Tasker
+1.0.2:
+    - Create base database tables
+    - create_notes_table.php
+    - create_projects_table.php
+    - create_statuses_table.php
+1.0.3:
+    - Seeding all tables
+    - seed_all_tables.php
